@@ -1,0 +1,11 @@
+#!/bin/bash
+#
+#$ -N pHello
+#$ -q all.q
+#$ -cwd
+#$ -j y
+#$ -o $JOB_ID.log
+. /etc/profile.d/modules.sh
+# Load one of these
+module load python/3.6.1
+python3 hello.py

@@ -1,0 +1,12 @@
+#$ -N mpiHello
+#$ -q all.q
+#$ -cwd
+#$ -j y
+#$ -o $JOB_ID.log
+#$ -pe openmpi 2
+. /etc/profile.d/modules.sh
+# Load one of these
+module load openmpi/gcc/64/1.10.1
+mpirun -n 2 ./a.out
+#mpirun -n $NSLOTS ./a.out
+exit 0

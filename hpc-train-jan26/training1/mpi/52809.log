@@ -1,0 +1,15 @@
+-catch_rsh /cm/local/apps/sge/var/spool/compute016/active_jobs/52809.1/pe_hostfile
+compute016
+compute016
+compute016
+compute016
+compute016
+compute016
+0: We have 6 processors
+sum 19999900000
+sum 59999900000
+sum 99999900000
+sum 139999900000
+sum 179999900000
+total 499999500000
+time used: 570000

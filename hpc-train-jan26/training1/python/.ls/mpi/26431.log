@@ -1,0 +1,7 @@
+-catch_rsh /cm/local/apps/sge/var/spool/compute029/active_jobs/26431.1/pe_hostfile
+compute029
+compute029
+0: We have 2 processors
+sum 47412516854584
+total 47412516854584
+time used: 3540000

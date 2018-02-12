@@ -1,0 +1,227 @@
+    1  pwd
+    2  ls
+    3  module list
+    4  qstat -g c
+    5  exit
+    6  ls
+    7  ls /bin
+    8  pwd
+    9  ls /bin
+   10  man ls
+   11  pwd
+   12  cd bin
+   13  cd /bin
+   14  pwd
+   15  cd 
+   16  pwd
+   17  mkdir hpc-jan10
+   18  cd hpc-jan10/
+   19  nano test
+   20  ls
+   21  cat test
+   22  cd ..
+   23  ls
+   24  ls /bin/
+   25  cd bin
+   26  cd /bin
+   27  cd 
+   28  cd /bin
+   29  cd ..
+   30  ls
+   31  pwd
+   32  cd
+   33  man cd
+   34  pwd
+   35   ls -l
+   36  ls -al
+   37  pwd
+   38  ls
+   39  ls 
+   40  ls hpc-jan10/
+   41  cd hpc-jan10
+   42  ls
+   43  cd ..
+   44  rmdir hpc-jan10/
+   45  mkdir girish
+   46  ls girish/
+   47  ls
+   48  cd girish/
+   49  ls
+   50  mkdir Exercises
+   51  mkdir LINUX
+   52  mkdir Quotes
+   53  mkdir emacs
+   54  mkdir python
+   55  ls
+   56  ls -l
+   57  pwd
+   58  cd
+   59  ls
+   60  cd girish/
+   61  ls
+   62  cd python/
+   63  cd ..
+   64  ls 
+   65  cd Quotes/
+   66  mkdir Quote1
+   67  mkdir Quote2
+   68  ls
+   69  cd Quotes1
+   70  ls
+   71  cd Quote1
+   72  pwd
+   73  cd ..
+   74  pwd
+   75  cd ..
+   76  ls
+   77  cd Quotes/Quote1
+   78  pwd
+   79  cd ..
+   80  cd Quote2
+   81  pwd
+   82  cd ..
+   83  pwd
+   84  cd ..
+   85  cd Quotes/Quote1
+   86  cd
+   87  ls
+   88  cd girish/
+   89  ls
+   90  cd Quotes/
+   91  cd .
+   92  ls
+   93  cd ..
+   94  ls
+   95  clear
+   96  ls
+   97  cd emacs/
+   98  emacs test
+   99  ls
+  100  cat test
+  101  emacs test
+  102  ls
+  103  emacs test
+  104  ls
+  105  cd ..
+  106  ls
+  107  cd Quotes/
+  108  emacs test1
+  109  emacs test1 
+  110  emacs test2
+  111  emacs test3
+  112  cat test1
+  113  cat test1 | test2
+  114  cat test1  test2
+  115  cat test1  test2 test3
+  116  diff test1 test2
+  117  ls
+  118  cd hpc-jan10/
+  119  emacs test.txt
+  120  ls
+  121  pwd
+  122  ls
+  123  cd ..
+  124  mkdir Exercises LINUX
+  125  ls
+  126  mkdir Quotes emacs python
+  127  ls -al
+  128  ls
+  129  pwd
+  130  cd Quotes
+  131  pwd
+  132  cd Quotes/
+  133  cd ..
+  134  cd Quotes/
+  135  pwd
+  136  cd
+  137  cd python/
+  138  pwd
+  139  cd
+  140  cd python/
+  141  cd ..
+  142  cd Quotes
+  143  mkdir Quote1
+  144  mkdir Quote2
+  145  ls
+  146  cd Quote1
+  147  pwd
+  148  cd ..
+  149  pwd
+  150  cd ..
+  151  cd Quotes/Quote2/
+  152  pwd ../../
+  153  cd ..
+  154  cd Quotes/Quote1
+  155  cd 
+  156  cd Quotes/Quote1
+  157  cd
+  158  ls
+  159  cd hpc-jan10/
+  160  ls
+  161  emacs test.txt 
+  162  cat test.txt
+  163  ls
+  164  cat test.txt
+  165  emacs test.txt
+  166  cat test.txt
+  167  nano Alan1
+  168  cp Alan1 Alan2
+  169  cp Alan2 Alan2
+  170  cp Alan2 Alan3
+  171  nano Alan2
+  172  cp Alan2 Alan3
+  173  nano Alan3
+  174  ls
+  175  cp Alan2y Alan2
+  176  cp Alan2 Alan3
+  177  nano Alan3
+  178  rm Alan2y
+  179  cat Alan1
+  180  cat Alan2
+  181  cat Alan3
+  182  diff Alan2 Alan3
+  183  diff Alan1 Alan2
+  184  exit
+  185  echo hello world
+  186  passwd
+  187  date
+  188  hostname
+  189  arch
+  190  uname -a
+  191  ls -al
+  192  ls Quotes/
+  193  ls Quotes/Quote1
+  194  ls Quotes/Quote2
+  195  cd hpc-jan10/
+  196  ls
+  197  man cat
+  198  man chmod
+  199  grep "we" Alan1
+  200  grep we Alan1
+  201  grep 'We' Alan1
+  202  grep -i we Alan1
+  203  wc Alan1
+  204  wc Alan2
+  205  wc Alan*
+  206  cmp Alan1 Alan2
+  207  cmp Alan2 Alan1
+  208* 
+  209  man cmp
+  210  cmp -v Alan2 Alan1
+  211  cmp Alan2 Alan1
+  212  nano test_jan24.txt
+  213  cd ..
+  214  cd Quotes/
+  215  nano Shannon
+  216  cat Shannon 
+  217  ls -l
+  218  cp Shannon ShannonA
+  219  cp Shannon ShannonB
+  220  ls -al
+  221  chmod 644 ShannonA
+  222  ls -al
+  223  chmod 700 ShannonD
+  224  chmod 700 ShannonB
+  225  ls -al
+  226  history
+  227  history > history.txt

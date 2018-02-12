@@ -1,0 +1,26 @@
+thread ID: 0
+thread ID: 1
+start: 250000, end: 500000
+Thread start time: 0
+thread ID: 3
+start: 750000, end: 1000000
+Thread start time: 0
+thread ID: 2
+start: 500000, end: 750000
+start: 0, end: 250000
+Thread start time: 20000
+Thread start time: 20000
+Thread finish time: 33620000
+Thread finish time: 37390000
+Thread finish time: 37720000
+Thread finish time: 38060000
+sub total 31249875000
+time used: 38060000
+sub total 93749875000
+time used: 38060000
+sub total 156249875000
+time used: 38060000
+sub total 218749875000
+time used: 38060000
+total 499999500000
+time used: 38060000

@@ -1,0 +1,9 @@
+#$ -N mthread
+#$ -q all.q
+##$ -q dev.q 
+#$ -cwd
+#$ -j y
+#$ -o $JOB_ID.log
+#$ -pe threaded 2
+./a.out
+exit 0

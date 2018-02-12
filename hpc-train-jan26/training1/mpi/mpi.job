@@ -1,0 +1,12 @@
+#$ -N mpiHello
+#$ -q all.q
+#$ -cwd
+#$ -j y
+#$ -o $JOB_ID.log
+#$ -pe openmpi 6
+. /etc/profile.d/modules.sh
+# Load one of these
+module load openmpi/3.0.0
+#mpirun -n 2 ./a.out
+mpirun -n $NSLOTS ./hellompi.out
+exit 0
