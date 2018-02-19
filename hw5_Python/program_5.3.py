@@ -10,7 +10,7 @@ def remove_item(tuple1, item1):
     tuple1 = tuple(list_tup)
     return tuple1
 
-#Testing if adding item function works
+#Testing if removing item function works
 print("Removing item1 from tuple: ",remove_item(tuple1,100))
 
 print("Removing item2 from tuple: ",remove_item(tuple1,'Testing'))
