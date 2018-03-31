@@ -1,0 +1,11 @@
+#$ -N mpi-job
+#$ -q all.q
+#$ -cwd
+#$ -j y
+#$ -o $JOB_ID.log
+#$ -pe openmpi 20
+. /etc/profile.d/modules.sh
+# Load one of these
+module load openmpi/3.0.0
+mpiexec -n 2 python mpi_prog1.py
+exit 0
